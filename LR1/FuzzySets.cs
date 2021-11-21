@@ -51,7 +51,7 @@ namespace LR1
             {
                 table.AddRow(item.Key, Math.Round(item.Value,1));
             }
-            table.Write();
+            table.Write(Format.Alternative);
         }
 
         static public Dictionary<T, double> Union<T>(Dictionary<T, double> A, Dictionary<T, double> B)
