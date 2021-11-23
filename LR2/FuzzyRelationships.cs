@@ -33,6 +33,7 @@ namespace LR2
                     table.AddRow(line);
                 }
             }
+
             table.Write(Format.Alternative);
         }
 
